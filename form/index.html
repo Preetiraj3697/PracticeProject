@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+    text-align: center;
+}
+input{
+    width:80%;
+    margin:10px;
+    font-size: 20px;
+    padding:3%;
+    border-radius: 10px;
+    border:0px;
+}
+select{
+    width:85%;
+    margin:10px;
+    font-size: 20px;
+    padding:3%;
+    border-radius: 10px;
+    border:0px;
+}
+form{
+    width:400px;
+    border:1px solid white;
+    margin:3% auto;
+    padding:3%;
+    background:rgb(200, 252, 252)
+}
+#add{
+  background-color: blue;
+  color:white;
+  width:88%;
+}
+#add:hover{
+  box-shadow: 1px 1px 10px greenyellow;
+}
+    </style>
+</head>
+<body>
+      <div><a href="product.html">Product Page</a></div>
+        <h1>Add Products in Inventory</h1>
+        <form action="" id="product_form" onsubmit="storeData(event)" >
+          <input placeholder="Product Name" id="name" type="text" />
+          <select id="category">
+            <option value="">Product Catagory</option>
+            <option value="Grocery">Grocery</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Home Appliances">Home Appliances</option>
+          </select>
+          <input type="text" id="image" placeholder="image.url" />
+          <input placeholder="Product Price" id="price" type="number" />
+          <select id="gender">
+            <option value="">Gender</option>
+            <option value="man">Man</option>
+            <option value="woman">Woman</option>
+          </select>
+          <select id="sold">
+            <option value="False">False</option>
+            <option value="True">True</option>
+          </select>
+          <input type="submit" value="Add Inventory"  id="add" />
+        </form>
+      
+</body>
+</html>
+<script src="form.js"></script>
+
+
