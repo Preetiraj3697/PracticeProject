@@ -1,0 +1,17 @@
+.main {
+    margin: auto;
+    width: 320px;
+  }
+  .main input {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 5px;
+    width: 300px;
+  }
+  .maindiv {
+    width: 300px;
+    position: absolute;
+    top: 35px;
+    left: 39%;
+    overflow-y: hidden;
+  }

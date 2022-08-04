@@ -1,0 +1,99 @@
+body {
+    background-color: #86eedd;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f7f4f4;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(8, 7, 7);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .container {
+    width: 80rem;
+    height: 60rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  #list {
+    width: 30%;
+    height: 55%;
+    overflow: auto;
+    margin-left: 25rem;
+    border: 8px solid red;
+    border-radius: 6px;
+  }
+  #list li {
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  #list li:hover {
+    background-color: rgb(12, 79, 202);
+  }
+  .modal {
+    width: 40rem;
+    height: 41rem;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: rgb(232, 238, 238);
+  }
+  .modal p {
+    font-size: 1.2rem;
+    padding: 2rem;
+    line-height: 1.5rem;
+  }
+  .accept {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0.3rem;
+  }
+  .decline {
+    background-color: #f44336;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0.3rem;
+    margin-left: 1.5rem;
+  }
+  .modal-footer {
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+  }
+  
+  .modal {
+    display: none;
+    position: absolute;
+    top: 2rem;
+    left: 28rem;
+    z-index: 1;
+  }
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .modal-header h1 {
+    padding-left: 1rem;
+  }
+  .modal-header > div {
+    padding: 1rem;
+  }
+  i {
+    font-size: 1.5rem;
+    color: red;
+  }
